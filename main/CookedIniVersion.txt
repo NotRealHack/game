@@ -1,16 +1,16 @@
 [UsedSettings]
 Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FutureWorld.FutureWorld
+Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/MainMenu_Map.MainMenu_Map
 Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
 Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FutureWorld.FutureWorld
+Mac.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/MainMenu_Map.MainMenu_Map
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
 Mac.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FutureWorld.FutureWorld
+Windows.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/MainMenu_Map.MainMenu_Map
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
 Windows.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
@@ -43,12 +43,28 @@ Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:JavaPath:0=(Path
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:SDKAPILevel:0=matchndk
 Windows.Engine:/Script/AndroidPlatformEditor.AndroidSDKSettings:NDKAPILevel:0=android-19
 Windows.Engine:FProjectLauncher:AdvancedMode:0=True
-Windows.Engine:WindowsApplication.Accessibility:StickyKeysHotkey:0=True
-Windows.Engine:WindowsApplication.Accessibility:ToggleKeysHotkey:0=True
-Windows.Engine:WindowsApplication.Accessibility:FilterKeysHotkey:0=True
-Windows.Engine:WindowsApplication.Accessibility:StickyKeysConfirmation:0=True
-Windows.Engine:WindowsApplication.Accessibility:ToggleKeysConfirmation:0=True
-Windows.Engine:WindowsApplication.Accessibility:FilterKeysConfirmation:0=True
+Windows.Engine:/Script/UnrealEd.EditorEngine:FlipNormalMapGreenChannel:0=False
+Windows.Engine:/Script/UnrealEd.EditorEngine:LocalPlayerClassName:0=/Script/Engine.LocalPlayer
+Windows.Engine:/Script/UnrealEd.EditorEngine:GameCommandLine:0=-log
+Windows.Engine:/Script/UnrealEd.EditorEngine:FOVAngle:0=90.000000
+Windows.Engine:/Script/UnrealEd.EditorEngine:GodMode:0=True
+Windows.Engine:/Script/UnrealEd.EditorEngine:UseAxisIndicator:0=True
+Windows.Engine:/Script/UnrealEd.EditorEngine:MatineeCurveDetail:0=0.1
+Windows.Engine:/Script/UnrealEd.EditorEngine:HeightMapExportClassName:0=TerrainHeightMapExporterTextT3D
+Windows.Engine:/Script/UnrealEd.EditorEngine:bGroupingActive:0=true
+Windows.Engine:/Script/UnrealEd.EditorEngine:bCustomCameraAlignEmitter:0=true
+Windows.Engine:/Script/UnrealEd.EditorEngine:CustomCameraAlignEmitterDistance:0=100.0
+Windows.Engine:/Script/UnrealEd.EditorEngine:bDrawSocketsInGMode:0=false
+Windows.Engine:/Script/UnrealEd.EditorEngine:bSmoothFrameRate:0=false
+Windows.Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:0=(LowerBound=(Type="ERangeBoundTypes::Inclusive",Value=5),UpperBound=(Type="ERangeBoundTypes::Inclusive",Value=120))
+Windows.Engine:/Script/UnrealEd.EditorEngine:UseOldStyleMICEditorGroups:0=true
+Windows.Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:0=
+Windows.Engine:WindowsApplication.Accessibility:StickyKeysHotkey:0=False
+Windows.Engine:WindowsApplication.Accessibility:ToggleKeysHotkey:0=False
+Windows.Engine:WindowsApplication.Accessibility:FilterKeysHotkey:0=False
+Windows.Engine:WindowsApplication.Accessibility:StickyKeysConfirmation:0=False
+Windows.Engine:WindowsApplication.Accessibility:ToggleKeysConfirmation:0=False
+Windows.Engine:WindowsApplication.Accessibility:FilterKeysConfirmation:0=False
 Windows.Engine:URL:Protocol:0=unreal
 Windows.Engine:URL:Name:0=Player
 Windows.Engine:URL:SaveExt:0=usa
@@ -1435,21 +1451,6 @@ Windows.Engine:TextureStreaming:AllowStreamingLightmaps:0=True
 Windows.Engine:TextureStreaming:UseDynamicStreaming:0=True
 Windows.Engine:TextureStreaming:BoostPlayerTextures:0=3.0
 Windows.Engine:TextureStreaming:PoolSizeVRAMPercentage:0=70
-Windows.Engine:/Script/UnrealEd.EditorEngine:LocalPlayerClassName:0=/Script/Engine.LocalPlayer
-Windows.Engine:/Script/UnrealEd.EditorEngine:GameCommandLine:0=-log
-Windows.Engine:/Script/UnrealEd.EditorEngine:FOVAngle:0=90.000000
-Windows.Engine:/Script/UnrealEd.EditorEngine:GodMode:0=True
-Windows.Engine:/Script/UnrealEd.EditorEngine:UseAxisIndicator:0=True
-Windows.Engine:/Script/UnrealEd.EditorEngine:MatineeCurveDetail:0=0.1
-Windows.Engine:/Script/UnrealEd.EditorEngine:HeightMapExportClassName:0=TerrainHeightMapExporterTextT3D
-Windows.Engine:/Script/UnrealEd.EditorEngine:bGroupingActive:0=true
-Windows.Engine:/Script/UnrealEd.EditorEngine:bCustomCameraAlignEmitter:0=true
-Windows.Engine:/Script/UnrealEd.EditorEngine:CustomCameraAlignEmitterDistance:0=100.0
-Windows.Engine:/Script/UnrealEd.EditorEngine:bDrawSocketsInGMode:0=false
-Windows.Engine:/Script/UnrealEd.EditorEngine:bSmoothFrameRate:0=false
-Windows.Engine:/Script/UnrealEd.EditorEngine:SmoothedFrameRateRange:0=(LowerBound=(Type="ERangeBoundTypes::Inclusive",Value=5),UpperBound=(Type="ERangeBoundTypes::Inclusive",Value=120))
-Windows.Engine:/Script/UnrealEd.EditorEngine:UseOldStyleMICEditorGroups:0=true
-Windows.Engine:/Script/UnrealEd.EditorEngine:InEditorGameURLOptions:0=
 Windows.Engine:/Script/UnrealEd.UnrealEdEngine:AutoSaveIndex:0=0
 Windows.Engine:/Script/UnrealEd.UnrealEdEngine:TemplateMapInfos:0=(ThumbnailTexture=Texture2D'/Engine/Maps/Templates/Thumbnails/Default.Default',Map="/Engine/Maps/Templates/Template_Default")
 Windows.Engine:/Script/UnrealEd.UnrealEdEngine:TemplateMapInfos:1=(ThumbnailTexture=Texture2D'/Engine/Maps/Templates/Thumbnails/VR-Basic.VR-Basic',Map="/Engine/Maps/Templates/VR-Basic")
@@ -2288,22 +2289,22 @@ Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedTarget
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:DefaultGraphicsPerformance:0=Maximum
 Windows.Engine:/Script/HardwareTargeting.HardwareTargetingSettings:AppliedDefaultGraphicsPerformance:0=Maximum
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Android.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FutureWorld.FutureWorld
+Android.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/MainMenu_Map.MainMenu_Map
 Android.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
 Android.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FutureWorld.FutureWorld
+HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/MainMenu_Map.MainMenu_Map
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
 HTML5.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FutureWorld.FutureWorld
+IOS.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/MainMenu_Map.MainMenu_Map
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
 IOS.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameInstanceClass:0=/Script/Engine.GameInstance
-Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/FutureWorld.FutureWorld
+Linux.Engine:/Script/EngineSettings.GameMapsSettings:GameDefaultMap:0=/Game/Maps/MainMenu_Map.MainMenu_Map
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:ServerDefaultMap:0=/Engine/Maps/Entry
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultGameMode:0=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
 Linux.Engine:/Script/EngineSettings.GameMapsSettings:GlobalDefaultServerGameMode:0=None
@@ -2581,7 +2582,7 @@ Windows.Game:/Script/EngineSettings.GeneralProjectSettings:CopyrightNotice:0=Fil
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:Description:0=
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:LicensingTerms:0=
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:PrivacyPolicy:0=
-Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectName:0=Third Person BP Game Template
+Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectName:0=NRHack
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:ProjectVersion:0=1.0.0.0
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:Homepage:0=
 Windows.Game:/Script/EngineSettings.GeneralProjectSettings:SupportContact:0=
@@ -2621,6 +2622,66 @@ Windows.Game:/Script/AIModule.EnvQueryManager:bTestQueriesUsingBreadth:0=true
 Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningThreshold:0=0
 Windows.Game:/Script/AIModule.EnvQueryManager:QueryCountWarningInterval:0=30.0
 Windows.Editor:EditorLayouts:NullLayout:0=( 	"Type": "Layout", 	"Name": "NullLayout", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Horizontal", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [] 		) 	] )
+Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Designer_Layout_v4_1:0=( 	"Type": "Layout", 	"Name": "WidgetBlueprintEditor_Designer_Layout_v4_1", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.20000000298023224, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 0.69999998807907104, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "WidgetTemplates", 									"Tabs": [ 										( 											"TabId": "WidgetTemplates", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "SlateHierarchy", 									"Tabs": [ 										( 											"TabId": "SlateHierarchy", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.62962961196899414, 							"Type": "Stack", 							"HideTabWell": true, 							"ForegroundTab": "SlatePreview", 							"Tabs": [ 								( 									"TabId": "SlatePreview", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.22037036716938019, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "WidgetDetails", 							"Tabs": [ 								( 									"TabId": "WidgetDetails", 									"TabState": "OpenedTab" 								) 							] 						) 					] 				), 				( 					"SizeCoefficient": 0.30000001192092896, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "Animations", 							"Tabs": [ 								( 									"TabId": "Animations", 									"TabState": "OpenedTab" 								) 							] 						), 						( 							"SizeCoefficient": 0.85000002384185791, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "Sequencer", 							"Tabs": [ 								( 									"TabId": "Sequencer", 									"TabState": "OpenedTab" 								), 								( 									"TabId": "CompilerResults", 									"TabState": "OpenedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
+Windows.Editor:EditorLayouts:WidgetBlueprintEditor_Graph_Layout_v1:0=( 	"Type": "Layout", 	"Name": "WidgetBlueprintEditor_Graph_Layout_v1", 	"PrimaryAreaIndex": 0, 	"Areas": [ 		( 			"SizeCoefficient": 1, 			"Type": "Area", 			"Orientation": "Orient_Vertical", 			"WindowPlacement": "Placement_NoWindow", 			"Nodes": [ 				( 					"SizeCoefficient": 0.18672099709510803, 					"Type": "Stack", 					"HideTabWell": true, 					"ForegroundTab": "AssetEditorToolkit_Toolbar", 					"Tabs": [ 						( 							"TabId": "AssetEditorToolkit_Toolbar", 							"TabState": "OpenedTab" 						) 					] 				), 				( 					"SizeCoefficient": 1, 					"Type": "Splitter", 					"Orientation": "Orient_Horizontal", 					"Nodes": [ 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "MyBlueprint", 									"Tabs": [ 										( 											"TabId": "MyBlueprint", 											"TabState": "OpenedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.5, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Inspector", 									"Tabs": [ 										( 											"TabId": "Inspector", 											"TabState": "OpenedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.69999998807907104, 							"Type": "Splitter", 							"Orientation": "Orient_Vertical", 							"Nodes": [ 								( 									"SizeCoefficient": 0.80000001192092896, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "Document : 0", 									"Tabs": [ 										( 											"TabId": "Document", 											"TabState": "ClosedTab" 										) 									] 								), 								( 									"SizeCoefficient": 0.20000000298023224, 									"Type": "Stack", 									"HideTabWell": false, 									"ForegroundTab": "None", 									"Tabs": [ 										( 											"TabId": "CompilerResults", 											"TabState": "ClosedTab" 										), 										( 											"TabId": "FindResults", 											"TabState": "ClosedTab" 										) 									] 								) 							] 						), 						( 							"SizeCoefficient": 0.15000000596046448, 							"Type": "Stack", 							"HideTabWell": false, 							"ForegroundTab": "None", 							"Tabs": [ 								( 									"TabId": "PaletteList", 									"TabState": "ClosedTab" 								) 							] 						) 					] 				) 			] 		) 	] )
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandCustomClassPickerClassList:0=True
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:0=(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:1=(Parent="Matinee", CommandName="Matinee_PlayReverse", Description="Matinee_PlayReverse_Desc", ExecCommand="Matinee PlayReverse")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:2=(Parent="Matinee", CommandName="Matinee_Stop", Description="Matinee_Stop_Desc", ExecCommand="Matinee Stop")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:3=(Parent="Matinee", CommandName="Matinee_TogglePlayPause", Description="Matinee_TogglePlayPause_Desc", ExecCommand="Matinee TogglePlayPause")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:4=(Parent="Matinee", CommandName="Matinee_ZoomIn", Description="Matinee_ZoomIn_Desc", ExecCommand="Matinee ZoomIn")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:5=(Parent="Matinee", CommandName="Matinee_ZoomInAlt", Description="Matinee_ZoomInAlt_Desc", ExecCommand="Matinee ZoomIn")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:6=(Parent="Matinee", CommandName="Matinee_ZoomOut", Description="Matinee_ZoomOut_Desc", ExecCommand="Matinee ZoomOut")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:7=(Parent="Matinee", CommandName="Matinee_ZoomOutAlt", Description="Matinee_ZoomOutAlt_Desc", ExecCommand="Matinee ZoomOut")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:8=(Parent="Matinee", CommandName="Matinee_Undo", Description="Matinee_Undo_Desc", ExecCommand="Matinee Undo")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:9=(Parent="Matinee", CommandName="Matinee_Redo", Description="Matinee_Redo_Desc", ExecCommand="Matinee Redo")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:10=(Parent="Matinee", CommandName="Matinee_Copy", Description="Matinee_Copy_Desc", ExecCommand="Matinee Copy")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:11=(Parent="Matinee", CommandName="Matinee_Cut", Description="Matinee_Cut_Desc", ExecCommand="Matinee Cut")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:12=(Parent="Matinee", CommandName="Matinee_Paste", Description="Matinee_Paste_Desc", ExecCommand="Matinee Paste")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:13=(Parent="Matinee", CommandName="Matinee_DeleteSelection", Description="Matinee_DeleteSelection_Desc", ExecCommand="Matinee DeleteSelection")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:14=(Parent="Matinee", CommandName="Matinee_MarkInSection", Description="Matinee_MarkInSection_Desc", ExecCommand="Matinee MarkInSection")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:15=(Parent="Matinee", CommandName="Matinee_MarkOutSection", Description="Matinee_MarkOutSection_Desc", ExecCommand="Matinee MarkOutSection")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:16=(Parent="Matinee", CommandName="Matinee_IncrementPosition", Description="Matinee_IncrementPosition_Desc", ExecCommand="Matinee IncrementPosition")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:17=(Parent="Matinee", CommandName="Matinee_DecrementPosition", Description="Matinee_DecrementPosition_Desc", ExecCommand="Matinee DecrementPosition")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:18=(Parent="Matinee", CommandName="Matinee_MoveToNextKey", Description="Matinee_MoveToNextKey_Desc", ExecCommand="Matinee MoveToNextKey")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:19=(Parent="Matinee", CommandName="Matinee_MoveToPrevKey", Description="Matinee_MoveToPrevKey_Desc", ExecCommand="Matinee MoveToPrevKey")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:20=(Parent="Matinee", CommandName="Matinee_SplitAnimKey", Description="Matinee_SplitAnimKey_Desc", ExecCommand="Matinee SplitAnimKey")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:21=(Parent="Matinee", CommandName="Matinee_ToggleSnap", Description="Matinee_ToggleSnap_Desc", ExecCommand="Matinee ToggleSnap")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:22=(Parent="Matinee", CommandName="Matinee_MoveActiveUp", Description="Matinee_MoveActiveUp_Desc", ExecCommand="Matinee MoveActiveUp")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:23=(Parent="Matinee", CommandName="Matinee_MoveActiveDown", Description="Matinee_MoveActiveDown_Desc", ExecCommand="Matinee MoveActiveDown")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:24=(Parent="Matinee", CommandName="Matinee_AddKey", Description="Matinee_AddKey_Desc", ExecCommand="Matinee AddKey")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:25=(Parent="Matinee", CommandName="Matinee_DuplicateSelectedKeys", Description="Matinee_DuplicateSelectedKeys_Desc", ExecCommand="Matinee DuplicateSelectedKeys")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:26=(Parent="Matinee", CommandName="Matinee_CropAnimationBeginning", Description="Matinee_CropAnimationBeginning_Desc", ExecCommand="Matinee CropAnimationBeginning")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:27=(Parent="Matinee", CommandName="Matinee_CropAnimationEnd", Description="Matinee_CropAnimationEnd_Desc", ExecCommand="Matinee CropAnimationEnd")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:28=(Parent="Matinee", CommandName="Matinee_ViewFitSequence", Description="Matinee_ViewFitSequence_Desc", ExecCommand="Matinee ViewFitSequence")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:29=(Parent="Matinee", CommandName="Matinee_ViewFitToSelected", Description="Matinee_ViewFitToSelected_Desc", ExecCommand="Matinee ViewFitToSelected")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:30=(Parent="Matinee", CommandName="Matinee_ViewFitLoop", Description="Matinee_ViewFitLoop_Desc", ExecCommand="Matinee ViewFitLoop")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:31=(Parent="Matinee", CommandName="Matinee_ViewFitLoopSequence", Description="Matinee_ViewFitLoopSequence_Desc", ExecCommand="Matinee ViewFitLoopSequence")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:32=(Parent="Matinee", CommandName="Matinee_ViewEndOfTrack", Description="Matinee_ViewEndOfTrack_Desc", ExecCommand="Matinee ViewEndOfTrack")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:33=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeAUTO", Description="Matinee_ChangeKeyInterpModeAUTO_Desc", ExecCommand="Matinee ChangeKeyInterpModeAUTO")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:34=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeUSER", Description="Matinee_ChangeKeyInterpModeUSER_Desc", ExecCommand="Matinee ChangeKeyInterpModeUSER")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:35=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeBREAK", Description="Matinee_ChangeKeyInterpModeBREAK_Desc", ExecCommand="Matinee ChangeKeyInterpModeBREAK")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:36=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeLINEAR", Description="Matinee_ChangeKeyInterpModeLINEAR_Desc", ExecCommand="Matinee ChangeKeyInterpModeLINEAR")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:37=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeCONSTANT", Description="Matinee_ChangeKeyInterpModeCONSTANT_Desc", ExecCommand="Matinee ChangeKeyInterpModeCONSTANT")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:38=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeAUTO", Description="CurveEditor_ChangeInterpModeAUTO_Desc", ExecCommand="CurveEditor ChangeInterpModeAUTO")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:39=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeUSER", Description="CurveEditor_ChangeInterpModeUSER_Desc", ExecCommand="CurveEditor ChangeInterpModeUSER")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:40=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeBREAK", Description="CurveEditor_ChangeInterpModeBREAK_Desc", ExecCommand="CurveEditor ChangeInterpModeBREAK")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:41=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeLINEAR", Description="CurveEditor_ChangeInterpModeLINEAR_Desc", ExecCommand="CurveEditor ChangeInterpModeLINEAR")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:42=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeCONSTANT", Description="CurveEditor_ChangeInterpModeCONSTANT_Desc", ExecCommand="CurveEditor ChangeInterpModeCONSTANT")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:43=(Parent="CurveEditor", CommandName="CurveEditor_FitViewHorizontally", Description="CurveEditor_FitViewHorizontally_Desc", ExecCommand="CurveEditor FitViewHorizontally")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:44=(Parent="CurveEditor", CommandName="CurveEditor_FitViewVertically", Description="CurveEditor_FitViewVertically_Desc", ExecCommand="CurveEditor FitViewVertically")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:45=(Parent="CurveEditor", CommandName="CurveEditor_FitViewToAll", Description="CurveEditor_FitViewToAll_Desc", ExecCommand="CurveEditor FitViewToAll")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:46=(Parent="CurveEditor", CommandName="CurveEditor_FitViewToSelected", Description="CurveEditor_FitViewToSelected_Desc", ExecCommand="CurveEditor FitViewToSelected")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandClassPickerClassList:0=False
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:0=(ClassName="/Script/Engine.Actor", AssetClass="/Script/Engine.Blueprint")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:1=(ClassName="/Script/Engine.Pawn", AssetClass="/Script/Engine.Blueprint")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:2=(ClassName="/Script/Engine.Character", AssetClass="/Script/Engine.Blueprint")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:3=(ClassName="/Script/Engine.PlayerController", AssetClass="/Script/Engine.Blueprint")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:4=(ClassName="/Script/Engine.GameModeBase", AssetClass="/Script/Engine.Blueprint")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:5=(ClassName="/Script/Engine.ActorComponent", AssetClass="/Script/Engine.Blueprint")
+Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:6=(ClassName="/Script/Engine.SceneComponent", AssetClass="/Script/Engine.Blueprint")
 Windows.Editor:Internationalization:LocalizationPaths:0=../../../Engine/Content/Localization/Editor
 Windows.Editor:Internationalization:LocalizationPaths:1=../../../Engine/Content/Localization/EditorTutorials
 Windows.Editor:Internationalization:LocalizationPaths:2=../../../Engine/Content/Localization/Keywords
@@ -2731,63 +2792,6 @@ Windows.Editor:BlueprintEditor.Menu:BlueprintHiddenFields:4=/Script/Engine.Scene
 Windows.Editor:UnrealEd.MeshPaint:MinBrushRadius:0=1
 Windows.Editor:UnrealEd.MeshPaint:MaxBrushRadius:0=256
 Windows.Editor:UnrealEd.HitProxy:HitProxySize:0=5
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:0=(Name="Matinee")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCategories:1=(Name="CurveEditor")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:0=(Parent="Matinee", CommandName="Matinee_PlayForward", Description="Matinee_PlayForward_Desc", ExecCommand="Matinee Play")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:1=(Parent="Matinee", CommandName="Matinee_PlayReverse", Description="Matinee_PlayReverse_Desc", ExecCommand="Matinee PlayReverse")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:2=(Parent="Matinee", CommandName="Matinee_Stop", Description="Matinee_Stop_Desc", ExecCommand="Matinee Stop")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:3=(Parent="Matinee", CommandName="Matinee_TogglePlayPause", Description="Matinee_TogglePlayPause_Desc", ExecCommand="Matinee TogglePlayPause")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:4=(Parent="Matinee", CommandName="Matinee_ZoomIn", Description="Matinee_ZoomIn_Desc", ExecCommand="Matinee ZoomIn")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:5=(Parent="Matinee", CommandName="Matinee_ZoomInAlt", Description="Matinee_ZoomInAlt_Desc", ExecCommand="Matinee ZoomIn")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:6=(Parent="Matinee", CommandName="Matinee_ZoomOut", Description="Matinee_ZoomOut_Desc", ExecCommand="Matinee ZoomOut")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:7=(Parent="Matinee", CommandName="Matinee_ZoomOutAlt", Description="Matinee_ZoomOutAlt_Desc", ExecCommand="Matinee ZoomOut")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:8=(Parent="Matinee", CommandName="Matinee_Undo", Description="Matinee_Undo_Desc", ExecCommand="Matinee Undo")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:9=(Parent="Matinee", CommandName="Matinee_Redo", Description="Matinee_Redo_Desc", ExecCommand="Matinee Redo")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:10=(Parent="Matinee", CommandName="Matinee_Copy", Description="Matinee_Copy_Desc", ExecCommand="Matinee Copy")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:11=(Parent="Matinee", CommandName="Matinee_Cut", Description="Matinee_Cut_Desc", ExecCommand="Matinee Cut")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:12=(Parent="Matinee", CommandName="Matinee_Paste", Description="Matinee_Paste_Desc", ExecCommand="Matinee Paste")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:13=(Parent="Matinee", CommandName="Matinee_DeleteSelection", Description="Matinee_DeleteSelection_Desc", ExecCommand="Matinee DeleteSelection")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:14=(Parent="Matinee", CommandName="Matinee_MarkInSection", Description="Matinee_MarkInSection_Desc", ExecCommand="Matinee MarkInSection")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:15=(Parent="Matinee", CommandName="Matinee_MarkOutSection", Description="Matinee_MarkOutSection_Desc", ExecCommand="Matinee MarkOutSection")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:16=(Parent="Matinee", CommandName="Matinee_IncrementPosition", Description="Matinee_IncrementPosition_Desc", ExecCommand="Matinee IncrementPosition")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:17=(Parent="Matinee", CommandName="Matinee_DecrementPosition", Description="Matinee_DecrementPosition_Desc", ExecCommand="Matinee DecrementPosition")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:18=(Parent="Matinee", CommandName="Matinee_MoveToNextKey", Description="Matinee_MoveToNextKey_Desc", ExecCommand="Matinee MoveToNextKey")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:19=(Parent="Matinee", CommandName="Matinee_MoveToPrevKey", Description="Matinee_MoveToPrevKey_Desc", ExecCommand="Matinee MoveToPrevKey")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:20=(Parent="Matinee", CommandName="Matinee_SplitAnimKey", Description="Matinee_SplitAnimKey_Desc", ExecCommand="Matinee SplitAnimKey")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:21=(Parent="Matinee", CommandName="Matinee_ToggleSnap", Description="Matinee_ToggleSnap_Desc", ExecCommand="Matinee ToggleSnap")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:22=(Parent="Matinee", CommandName="Matinee_MoveActiveUp", Description="Matinee_MoveActiveUp_Desc", ExecCommand="Matinee MoveActiveUp")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:23=(Parent="Matinee", CommandName="Matinee_MoveActiveDown", Description="Matinee_MoveActiveDown_Desc", ExecCommand="Matinee MoveActiveDown")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:24=(Parent="Matinee", CommandName="Matinee_AddKey", Description="Matinee_AddKey_Desc", ExecCommand="Matinee AddKey")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:25=(Parent="Matinee", CommandName="Matinee_DuplicateSelectedKeys", Description="Matinee_DuplicateSelectedKeys_Desc", ExecCommand="Matinee DuplicateSelectedKeys")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:26=(Parent="Matinee", CommandName="Matinee_CropAnimationBeginning", Description="Matinee_CropAnimationBeginning_Desc", ExecCommand="Matinee CropAnimationBeginning")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:27=(Parent="Matinee", CommandName="Matinee_CropAnimationEnd", Description="Matinee_CropAnimationEnd_Desc", ExecCommand="Matinee CropAnimationEnd")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:28=(Parent="Matinee", CommandName="Matinee_ViewFitSequence", Description="Matinee_ViewFitSequence_Desc", ExecCommand="Matinee ViewFitSequence")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:29=(Parent="Matinee", CommandName="Matinee_ViewFitToSelected", Description="Matinee_ViewFitToSelected_Desc", ExecCommand="Matinee ViewFitToSelected")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:30=(Parent="Matinee", CommandName="Matinee_ViewFitLoop", Description="Matinee_ViewFitLoop_Desc", ExecCommand="Matinee ViewFitLoop")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:31=(Parent="Matinee", CommandName="Matinee_ViewFitLoopSequence", Description="Matinee_ViewFitLoopSequence_Desc", ExecCommand="Matinee ViewFitLoopSequence")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:32=(Parent="Matinee", CommandName="Matinee_ViewEndOfTrack", Description="Matinee_ViewEndOfTrack_Desc", ExecCommand="Matinee ViewEndOfTrack")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:33=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeAUTO", Description="Matinee_ChangeKeyInterpModeAUTO_Desc", ExecCommand="Matinee ChangeKeyInterpModeAUTO")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:34=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeUSER", Description="Matinee_ChangeKeyInterpModeUSER_Desc", ExecCommand="Matinee ChangeKeyInterpModeUSER")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:35=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeBREAK", Description="Matinee_ChangeKeyInterpModeBREAK_Desc", ExecCommand="Matinee ChangeKeyInterpModeBREAK")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:36=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeLINEAR", Description="Matinee_ChangeKeyInterpModeLINEAR_Desc", ExecCommand="Matinee ChangeKeyInterpModeLINEAR")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:37=(Parent="Matinee", CommandName="Matinee_ChangeKeyInterpModeCONSTANT", Description="Matinee_ChangeKeyInterpModeCONSTANT_Desc", ExecCommand="Matinee ChangeKeyInterpModeCONSTANT")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:38=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeAUTO", Description="CurveEditor_ChangeInterpModeAUTO_Desc", ExecCommand="CurveEditor ChangeInterpModeAUTO")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:39=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeUSER", Description="CurveEditor_ChangeInterpModeUSER_Desc", ExecCommand="CurveEditor ChangeInterpModeUSER")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:40=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeBREAK", Description="CurveEditor_ChangeInterpModeBREAK_Desc", ExecCommand="CurveEditor ChangeInterpModeBREAK")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:41=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeLINEAR", Description="CurveEditor_ChangeInterpModeLINEAR_Desc", ExecCommand="CurveEditor ChangeInterpModeLINEAR")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:42=(Parent="CurveEditor", CommandName="CurveEditor_ChangeInterpModeCONSTANT", Description="CurveEditor_ChangeInterpModeCONSTANT_Desc", ExecCommand="CurveEditor ChangeInterpModeCONSTANT")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:43=(Parent="CurveEditor", CommandName="CurveEditor_FitViewHorizontally", Description="CurveEditor_FitViewHorizontally_Desc", ExecCommand="CurveEditor FitViewHorizontally")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:44=(Parent="CurveEditor", CommandName="CurveEditor_FitViewVertically", Description="CurveEditor_FitViewVertically_Desc", ExecCommand="CurveEditor FitViewVertically")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:45=(Parent="CurveEditor", CommandName="CurveEditor_FitViewToAll", Description="CurveEditor_FitViewToAll_Desc", ExecCommand="CurveEditor FitViewToAll")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:EditorCommands:46=(Parent="CurveEditor", CommandName="CurveEditor_FitViewToSelected", Description="CurveEditor_FitViewToSelected_Desc", ExecCommand="CurveEditor FitViewToSelected")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:bExpandClassPickerClassList:0=False
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:0=(ClassName="/Script/Engine.Actor", AssetClass="/Script/Engine.Blueprint")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:1=(ClassName="/Script/Engine.Pawn", AssetClass="/Script/Engine.Blueprint")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:2=(ClassName="/Script/Engine.Character", AssetClass="/Script/Engine.Blueprint")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:3=(ClassName="/Script/Engine.PlayerController", AssetClass="/Script/Engine.Blueprint")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:4=(ClassName="/Script/Engine.GameModeBase", AssetClass="/Script/Engine.Blueprint")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:5=(ClassName="/Script/Engine.ActorComponent", AssetClass="/Script/Engine.Blueprint")
-Windows.Editor:/Script/UnrealEd.UnrealEdOptions:NewAssetDefaultClasses:6=(ClassName="/Script/Engine.SceneComponent", AssetClass="/Script/Engine.Blueprint")
 Windows.Editor:TaskBrowser:DefaultServerName:0=
 Windows.Editor:TaskBrowser:DefaultServerPort:0=80
 Windows.Editor:TaskBrowser:DefaultProjectName:0=UE4
