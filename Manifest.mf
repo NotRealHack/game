@@ -2260,5 +2260,5 @@
     "/main/Content/Tree/Mediterran/Olive_lowp3_PhysicsAsset.uasset": "8A1AE28189CE767B0EE1C4860806072D",
     "/main/Content/Tree/Mediterran/Olive_lowp3_Skeleton.uasset": "B2503A598956B1A0CDFC480E00CDBCB6"
   },
-  "Executable": ""
+  "Executable": "/main.exe"
 }
