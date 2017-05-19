@@ -1,12 +1,13 @@
 {
   "ProjectRoot": "https://github.com/NotRealHack/game/raw/master",
-  "Build": 2,
+  "Build": 1,
   "Files": {
     "/main.exe": "3E2AEB8A74F283D878AAD0D49643EC5F",
     "/Manifest_NonUFSFiles_Win32.txt": "E59C5B0EB6825781B67ECB6306897C51",
     "/Manifest_NonUFSFiles_Win64.txt": "59F937F4A184F8BEB8CA42A43E41CC76",
     "/Manifest_UFSFiles_Win32.txt": "C5A2A4B57FFEA64A73732EBE76E898D5",
     "/Manifest_UFSFiles_Win64.txt": "0610A0F70C1B90EE7880E8075546268F",
+    "/README.md": "560A8F1BF50F89279E761C08C1025669",
     "/Engine/GlobalShaderCache-PCD3D_SM4.bin": "7FF6E7604D53944CBD208320AF21EC1D",
     "/Engine/GlobalShaderCache-PCD3D_SM5.bin": "A0D251BA856728AE4511B3C916C0D77E",
     "/Engine/Binaries/ThirdParty/NVIDIA/NVaftermath/Win64/GFSDK_Aftermath_Lib.dll": "041E24A10A8D6A40039A4E80665D7E68",
@@ -1926,7 +1927,6 @@
     "/main/Content/KiteDemo/LevelContent/Blueprints/Assets/SM_Arrows.uasset": "597F8A0182729BC3DA9C9878E1EFDE56",
     "/main/Content/KiteDemo/LevelContent/Blueprints/Assets/SunlightColorLUT.uasset": "20B3EDBEB03F4E72A218AF5414DC0558",
     "/main/Content/KiteDemo/LevelContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset": "2119D6274D4752E0A15B16E5B4775A54",
-    "/main/Content/KiteDemo/LevelContent/HDRI/KimsBackYard.uasset": "BED05D4CA28BF9AD4B0729E1E4A0C284",
     "/main/Content/KiteDemo/Maps/Overview.umap": "65A4B68B6A4D5FC2F66081289410E5BB",
     "/main/Content/KiteDemo/Maps/Showcase.umap": "B60DB458AA29832A84F3D0714D02F9BD",
     "/main/Content/KiteDemo/Material/M_Photoscan_Master.uasset": "E0F962283C9536E9AF92F8391BABB2C1",
